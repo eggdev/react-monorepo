@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "yarn build -- --watch",
-    "prepublish": "yarn build"
+    "init": "yarn install"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
