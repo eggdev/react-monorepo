@@ -4,9 +4,6 @@ const { babel } = require('@rollup/plugin-babel');
 const pkg = require('./package.json');
 
 module.exports = {
-  external(id) {
-    return ['@material-ui', 'prop-types', 'react'].includes(id.split('/')[0]);
-  },
   input: 'src/index.js',
   output: [
     {
@@ -25,6 +22,5 @@ module.exports = {
       rootMode: 'upward',
     }),
     commonjs(),
-    peerDepsExternal(),
   ],
 };
