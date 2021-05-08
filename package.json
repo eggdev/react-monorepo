@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "lerna run --parallel build",
-    "publish": "lerna publish from-git",
+    "publish": "lerna version && lerna publish from-git",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
