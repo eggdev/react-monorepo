@@ -5,9 +5,10 @@
   "repository": "git@github.com:eggdev/component-library.git",
   "author": "Brendan Eggers <eggers.brendan@gmail.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
-    "build": "lerna run --parallel build",
-    "publish": "lerna version && lerna publish from-git",
+    "lerna:build": "lerna run --parallel build",
+    "lerna:publish": "lerna version && lerna publish from-git",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
