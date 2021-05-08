@@ -5,7 +5,6 @@
   "repository": "git@github.com:eggdev/component-library.git",
   "author": "Brendan Eggers <eggers.brendan@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
@@ -18,6 +17,10 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "husky": "^6.0.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
