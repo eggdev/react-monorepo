@@ -8,6 +8,8 @@
   "private": false,
   "scripts": {
     "clean": "rimraf **/node_modules",
+    "clean:all": "lerna run --parallel clean",
+    "deploy": "yarn install && yarn init:all && yarn build-storybook",
     "lerna:build": "lerna run --parallel build",
     "lerna:publish": "lerna version && lerna publish from-git",
     "init:all": "lerna run --parallel init",
