@@ -41,6 +41,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.4"
   },
   "dependencies": {
+    "@material-ui/styles": "^4.11.4",
     "@storybook/addons": "^6.2.9"
   }
 }
