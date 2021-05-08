@@ -7,14 +7,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "build-storybook": "build-storybook",
     "clean": "rimraf **/node_modules",
     "clean:all": "lerna run --parallel clean",
     "deploy": "yarn install && yarn init:all && yarn build-storybook",
+    "init:all": "lerna run --parallel init",
     "lerna:build": "lerna run --parallel build",
     "lerna:publish": "lerna version && lerna publish from-git",
-    "init:all": "lerna run --parallel init",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "sketch": "npx story2sketch --url https://storybook.eggers.dev/iframe.html --output sketch/stories.asketch.json"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
