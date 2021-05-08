@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/eggdev/component-library/compare/@eggdev/react-components@1.1.1...@eggdev/react-components@1.1.2) (2021-05-08)
+
+
+### Bug Fixes
+
+* removing an added value ([21d0a31](https://github.com/eggdev/component-library/commit/21d0a31875cc7f06aff133eaf01dd03af4959452))
+
+
+
+
+
 ## [1.1.1](https://github.com/eggdev/component-library/compare/@eggdev/react-components@1.1.0...@eggdev/react-components@1.1.1) (2021-05-08)
 
 
