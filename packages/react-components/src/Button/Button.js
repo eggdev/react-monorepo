@@ -1,6 +1,6 @@
 import React from 'react';
-import MuiButton from '@material-ui/core/Button';
 import PropTypes from 'prop-types';
+import MuiButton from '@material-ui/core/Button';
 
 /**
  *
