@@ -4,6 +4,9 @@
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf **/node_modules",
