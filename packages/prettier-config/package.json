@@ -1,0 +1,14 @@
+{
+  "name": "@eggdev/prettier-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Brendan Eggers <eggers.brendan@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}

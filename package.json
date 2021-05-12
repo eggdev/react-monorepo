@@ -1,8 +1,8 @@
 {
-  "name": "component-library",
+  "name": "react-monorepo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:eggdev/component-library.git",
+  "repository": "git@github.com:eggdev/react-monorepo.git",
   "author": "Brendan Eggers <eggers.brendan@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -14,6 +14,7 @@
     "init:all": "lerna run --parallel init",
     "lerna:build": "lerna run --parallel build",
     "lerna:publish": "lerna version && lerna publish from-git",
+    "lint:eslint": "eslint . --cache",
     "storybook": "start-storybook -p 6006",
     "sketch": "npx story2sketch --url https://storybook.eggers.dev/iframe.html --output sketch/stories.asketch.json"
   },
@@ -32,6 +33,7 @@
     "@storybook/react": "^6.2.9",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "eslint": "^7.26.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
     "react": "^17.0.2",
@@ -40,6 +42,5 @@
     "rollup": "^2.47.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "storybook-addon-sketch": "^0.2.1"
-  },
-  "dependencies": {}
+  }
 }

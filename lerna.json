@@ -1,20 +1,6 @@
 {
-  "command": {
-    "version": {
-      "allowBranch": "main",
-      "conventionalCommits": true,
-      "exact": true,
-      "ignoreChanges": [
-        "**/*.md",
-        "**/*.mdx",
-        "**/*.stories.js",
-        "**/*.test.js"
-      ],
-      "message": "chore: publish release"
-    }
-  },
-  "npmClient": "yarn",
-  "packages": ["packages/*"],
-  "useWorkspaces": false,
-  "version": "independent"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0"
 }
