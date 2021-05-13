@@ -1232,6 +1232,16 @@
   dependencies:
     chalk "^4.0.0"
 
+"@eggdev/eslint-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@eggdev/eslint-config/-/eslint-config-0.0.2.tgz#6b7b02aa31617a7e2d8bd528991a17437d00d564"
+  integrity sha512-ugH5cC7+XUs9wBPHZwWaHWzw0+5mXOmfMc1jDPJgLKbVFS7l3HRJSwhhP6zEEJfyRNtk9AWRrynSA7SA9usW+w==
+
+"@eggdev/prettier-config@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@eggdev/prettier-config/-/prettier-config-0.0.2.tgz#d5318b62dc985004c01c5ad7db4d070772701bfc"
+  integrity sha512-QErJ154KvooO4PDPbFocOI62rbPyDeYLPH0JnE4DPUGJTW9tiOma6X9WNDUY7EdUXrFYVAOcLOhGNCltCj+BPA==
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
