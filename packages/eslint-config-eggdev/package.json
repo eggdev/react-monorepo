@@ -5,6 +5,7 @@
   "author": "Brendan Eggers <eggers.brendan@gmail.com>",
   "license": "MIT",
   "main": "configurations/browser.js",
+  "homepage": "https://github.com/eggdev/react-monorepo/tree/main/packages/eslint-config-eggdev",
   "engines": {
     "node": "^10.12.0 || >=12.0.0"
   },
