@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/eggdev/component-library/compare/eslint-config-eggdev@0.0.5...eslint-config-eggdev@0.0.6) (2021-05-13)
+
+
+### Bug Fixes
+
+* adding homepace ([0550ef6](https://github.com/eggdev/component-library/commit/0550ef664a86cf8e5f3811be830e6ade9b53bbe2))
+
+
+
+
+
 ## [0.0.5](https://github.com/eggdev/component-library/compare/eslint-config-eggdev@0.0.4...eslint-config-eggdev@0.0.5) (2021-05-13)
 
 
