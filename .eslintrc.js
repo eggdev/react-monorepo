@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['eggdev/configurations/react'],
+  extends: ['eslint-config-eggdev'],
 };
