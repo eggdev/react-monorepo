@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eggdev",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "EsLint Config. Lets make it look good",
   "author": "Brendan Eggers <eggers.brendan@gmail.com>",
   "license": "MIT",

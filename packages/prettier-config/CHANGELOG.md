@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/eggdev/component-library/compare/@eggdev/prettier-config@0.1.0...@eggdev/prettier-config@0.1.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* cleaning up npm vs yarn stuff ([f885275](https://github.com/eggdev/component-library/commit/f8852751c208609e8c3c52ab885993e77befd468))
+
+
+
+
+
 # 0.1.0 (2021-05-13)
 
 
