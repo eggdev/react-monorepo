@@ -1,17 +1,16 @@
 module.exports = {
-  extends: ['eslint-config-eggdev'],
-  rules: {
-    // conflicts with monorepos and workspaces
-    'import/no-extraneous-dependencies': 'off',
-    // unnecessary for packages rely on exporting
-    'import/no-unused-modules': 'off',
+  env: {
+    browser: true,
+    es2021: true,
   },
-  root: true,
-  settings: {
-    'import/resolver': {
-      node: {
-        moduleDirectory: ['node_modules', 'test'],
-      },
+  extends: ['plugin:react/recommended', 'google'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
+    ecmaVersion: 12,
+    sourceType: 'module',
   },
+  plugins: ['react'],
+  rules: {},
 };

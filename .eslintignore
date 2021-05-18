@@ -4,3 +4,6 @@
 **/.storybook-static/
 **/dist/
 **/node_modules/
+**/sketch
+storybook-static
+

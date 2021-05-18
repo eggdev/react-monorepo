@@ -1,5 +1,5 @@
 const commonjs = require('@rollup/plugin-commonjs');
-const { babel } = require('@rollup/plugin-babel');
+const {babel} = require('@rollup/plugin-babel');
 
 const pkg = require('./package.json');
 

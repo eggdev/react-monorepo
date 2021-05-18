@@ -1,3 +1,3 @@
-import GloablStyles from './GlobalStyles';
+import GlobalStyles from './GlobalStyles';
 
-export default GloablStyles;
+export default GlobalStyles;

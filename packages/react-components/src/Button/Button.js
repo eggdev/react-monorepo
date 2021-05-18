@@ -8,8 +8,9 @@ import MuiButton from '@material-ui/core/Button';
  * @param {string} variant
  * @param {string} color
  * @param {function} onClick
+ * @return {Element} React Element
  */
-const Button = ({ label, ...rest }) => <MuiButton {...rest}>{label}</MuiButton>;
+const Button = ({label, ...rest}) => <MuiButton {...rest}>{label}</MuiButton>;
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
