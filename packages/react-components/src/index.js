@@ -1,5 +1,5 @@
 // Atom Components
-export {default as Button} from './Button';
+export {default as Button} from './components/Button';
 
 // Molecule Components
 

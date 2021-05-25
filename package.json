@@ -16,7 +16,8 @@
     "lerna:publish": "lerna version && lerna publish from-git",
     "lint:eslint": "eslint . --cache",
     "storybook": "start-storybook -p 6006",
-    "sketch": "npx story2sketch --url https://storybook.eggers.dev/iframe.html --output sketch/stories.asketch.json"
+    "sketch": "npx story2sketch --url https://storybook.eggers.dev/iframe.html --output sketch/stories.asketch.json",
+    "testComp": "rm -rf ./packages/react-components/src/components/Grid && /Users/brendaneggers/dev/cracl/packages/cracl/bin/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
@@ -24,6 +25,7 @@
     "@babel/preset-react": "^7.13.13",
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
+    "@eggdev/cracl": "^0.5.0",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@storybook/addon-actions": "^6.2.9",
@@ -33,7 +35,12 @@
     "@storybook/react": "^6.2.9",
     "babel-loader": "^8.2.2",
     "eslint": "^7.26.0",
-    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.23.2",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
