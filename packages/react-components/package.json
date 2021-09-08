@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf **/node_modules",
-    "dev": "yarn build -- --watch",
+    "dev": "yarn build --watch",
     "init": "yarn install"
   },
   "dependencies": {
@@ -21,5 +21,8 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.3"
   }
 }
